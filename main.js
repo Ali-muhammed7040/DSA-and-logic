@@ -6,8 +6,8 @@ console.log("hello world");
 
 const n = 20;
 let sum = 0;
-for (let i = 0; i < n + 1; i++) {
+for (let i = 0; i <= n; i++) {
   sum += i;
 }
 
-console.log(sum);
+console.log(sum, "sum from 0 to n");
